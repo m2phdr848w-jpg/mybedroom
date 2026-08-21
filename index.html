@@ -1,20 +1,262 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>mybedroom</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>mybedroom</title>
+
+<style>
+body {
+    background: #eeeeee;
+    color: #222222;
+    font-family: "MS PGothic", "Hiragino Kaku Gothic ProN", sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+a {
+    color: #333399;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #cc3366;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 760px;
+    margin: 30px auto;
+}
+
+.header {
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.sub {
+    font-size: 11px;
+    color: #777;
+}
+
+.menu {
+    margin: 20px 0;
+    padding: 10px;
+    border-top: 1px dotted #999;
+    border-bottom: 1px dotted #999;
+}
+
+.menu a {
+    margin-right: 18px;
+}
+
+.section {
+    margin: 30px 0;
+}
+
+.section-title {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-bottom: 1px dotted #999;
+    padding-bottom: 5px;
+}
+
+.diary {
+    background: #f7f7f7;
+    border: 1px solid #d0d0d0;
+    padding: 15px;
+}
+
+.date {
+    color: #777;
+    font-size: 11px;
+}
+
+.counter {
+    text-align: center;
+    margin: 45px 0;
+    padding: 15px;
+    border: 1px dotted #999;
+    background: #fafafa;
+}
+
+.footer {
+    border-top: 1px solid #999;
+    margin-top: 50px;
+    padding: 15px 0 50px;
+    color: #777;
+    font-size: 10px;
+    text-align: center;
+}
+
+.small {
+    font-size: 10px;
+    color: #777;
+}
+</style>
 </head>
+
+
 <body>
-  <h1>★ mybedroom ★</h1>
-  <p>ようこそ、私の寝室へ。</p>
-  <hr>
-  <h2>MENU</h2>
-  <p>📷 PHOTO<br>💬 BBS<br>👤 PROFILE<br>🔗 LINK</p>
-  <hr>
-  <p>あなたは 000001 人目のお客様です。</p>
-  <p>キリ番を踏んだ人は掲示板に報告してね！</p>
-  <hr>
-  <p>since 2026 mybedroom</p>
+
+<div class="wrapper">
+
+    <div class="header">
+        <div class="logo">mybedroom</div>
+        <div class="sub">my little room on the internet</div>
+    </div>
+
+
+    <div class="menu">
+        <a href="index.html">home</a>
+        <a href="#">diary</a>
+        <a href="#">photo</a>
+        <a href="#">bbs</a>
+        <a href="#">profile</a>
+        <a href="#">link</a>
+    </div>
+
+
+    <div class="section">
+
+        <div class="section-title">
+            welcome
+        </div>
+
+        <p>
+            ようこそ mybedroom へ。
+        </p>
+
+        <p>
+            ここは私の記録を置いておく場所です。<br>
+            日記を書いたり、写真を置いたり、<br>
+            そのとき考えていたことを残したりします。
+        </p>
+
+        <p class="small">
+            last update : 2026.08.21
+        </p>
+
+    </div>
+
+
+    <div class="section">
+
+        <div class="section-title">
+            diary
+        </div>
+
+        <div class="diary">
+
+            <div class="date">
+                2026.08.21
+            </div>
+
+            <p>
+                今日はサイトを作り始めた。
+            </p>
+
+            <p>
+                まだ何もないけど、<br>
+                これから少しずつ自分の部屋みたいにしていく。
+            </p>
+
+        </div>
+
+        <p>
+            → <a href="#">日記を読む</a>
+        </p>
+
+    </div>
+
+
+    <div class="section">
+
+        <div class="section-title">
+            photo
+        </div>
+
+        <p>
+            写真を少しずつ追加していきます。
+        </p>
+
+        <p>
+            → <a href="#">photo gallery</a>
+        </p>
+
+    </div>
+
+
+    <div class="section">
+
+        <div class="section-title">
+            bbs
+        </div>
+
+        <p>
+            掲示板。
+        </p>
+
+        <p>
+            → <a href="#">bbs entrance</a>
+        </p>
+
+    </div>
+
+
+    <div class="counter">
+
+        <div class="small">
+            YOU ARE VISITOR
+        </div>
+
+        <br>
+
+        <strong>000001</strong>
+
+        <br><br>
+
+        <span class="small">
+            キリ番を踏んだ方はBBSまで。
+        </span>
+
+    </div>
+
+
+    <div class="section">
+
+        <div class="section-title">
+            update
+        </div>
+
+        <p>
+            08.21　mybedroom open<br>
+            08.21　サイトを作り始めました
+        </p>
+
+    </div>
+
+
+    <div class="footer">
+
+        mybedroom<br>
+        personal website<br><br>
+
+        © mybedroom
+
+    </div>
+
+</div>
+
 </body>
 </html>
